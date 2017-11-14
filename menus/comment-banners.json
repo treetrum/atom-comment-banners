@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Create Comment Banner",
+        "command": "comment-banners:create-comment-banner"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Comment Banners",
+          "submenu": [
+            {
+              "label": "Create Comment Banner",
+              "command": "comment-banners:create-comment-banner"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
